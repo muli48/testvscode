@@ -10,6 +10,8 @@ namespace ConsoleApplication
         public static void Main(string[] args)
         {
             Console.WriteLine("do some stuff");
+            var foo = "sdafdf";
+            Console.WriteLine($"some more {foo}");
         }
     }
 }
